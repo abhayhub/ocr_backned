@@ -7,7 +7,7 @@ const multer  = require('multer');
 const cors = require('cors');
 
 const corsOptions = {
-  origin: 'http://localhost:5173',  // Explicitly allow your React frontend's origin
+  origin: 'http://localhost:5174',  // Explicitly allow your React frontend's origin
   credentials: true,  // Allow sending credentials (cookies, authorization headers, etc.)
 };
 
