@@ -68,6 +68,9 @@ function deleteFilesInFolderSync(folderPath) {
     }
 }
 
+app.get('/test', async(req,res) => {
+  return res.json("Machine is running");
+})
 
 app.post('/extract', upload.single('imgsrc'),  async(req, res) => {
     if (!req.file) {
