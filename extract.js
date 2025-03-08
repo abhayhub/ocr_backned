@@ -7,7 +7,7 @@ const multer  = require('multer');
 const cors = require('cors');
 
 const corsOptions = {
-  origin: 'https://pic-to-words-vtsm.vercel.app/',  // Explicitly allow your React frontend's origin
+  origin: '*',  // Explicitly allow your React frontend's origin
   credentials: true,  // Allow sending credentials (cookies, authorization headers, etc.)
 };
 
