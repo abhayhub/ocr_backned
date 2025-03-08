@@ -1,0 +1,23 @@
+{
+  "name": "ocr-tool",
+  "version": "1.0.0",
+  "main": "extract.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon extract.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "fabric": "^6.6.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.9",
+    "openai": "^4.86.1",
+    "tesseract.js": "^6.0.0"
+  }
+}
